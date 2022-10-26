@@ -1,0 +1,334 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 3.125rem; /*size in pixel = 5opx */
+    font-weight: bold;
+    line-height: 1.1;
+}
+h2 {
+    font-size: 1.625rem;
+    font-weight: 400;
+    text-align: center;
+}
+h3 {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+hr {
+    border: 4px solid rgb(165 165 165);
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+
+#faq {
+    margin: 70px auto;
+}
+#footer {
+    margin: 70px auto;
+}
+#title-page {
+    position: relative;
+}
+
+.accordion-btn {
+    width: 60%;
+    background: #303030;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    color: #ffffff;
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 10px auto;
+}
+.accordion-content {
+    text-align: justify;
+    width: 60%;
+    background: #303030;
+    padding: 10px 10px;
+    color: #ffffff;
+    margin: 0 auto;
+}
+.btn {
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1rem;
+    background: #e50914;
+    padding: 7px 17px 7px 17px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #db0510;
+    cursor: pointer;
+}
+.button-btn {
+    float: right;
+    margin: 2% 4%;
+}
+.btn-email {
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1.625rem;
+    background: #e50914;
+    text-decoration: none;
+    padding: 10px 25px 12px 20px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+}
+.btn-email:hover {
+    background-color: #db0510;
+    cursor: pointer;
+}
+.checking {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+.desktop-big-text {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.desktop-image {
+    height: 90%;
+    text-align: center;
+    width: 90%;
+}
+.desktop-small-text{
+    text-align: left;
+    width: 100%;
+}
+.desktop-text {
+    margin: auto;
+}
+.email-center {
+    text-align: center;
+    margin: 0 auto;
+    width: 800px;
+}
+.faq-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.footer-list {
+    text-align: left;
+}
+.input {
+    background: #212121;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #f5f5f5;
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.input-group {
+    position: relative;
+    margin: 15px 0;
+}
+.input:focus ~ label, input:valid ~ label {
+    transform: translateY(-5%) scale(0.7);
+    left: 3px;
+}
+.learn-more {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.main-input {
+    padding: 14px 8px;
+    outline: none;
+    font-size: 1.25rem;
+    border: none;
+    width: 60%;
+}
+.navbar {
+    justify-content: space-between;
+}
+.netflix-logo {
+    clear: left;
+    height: 10%;
+    margin: 2% 4%;
+    width: 10%;
+}
+.prompt-action {
+    margin: 0 auto;
+}
+.row {
+    padding: 70px 0;
+}
+.signin-button {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1.3rem;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.signin-focus {
+    background: rgba(0,0,0,0.65);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    height: 650px;
+    width: 450px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.signin-footer {
+    background: rgba(0,0,0,0.65);
+    box-shadow: 20px 20px 40px -6px rgba(0,0,0,0.2);
+    height: 200px;
+    width: 100%;
+    margin-top: 70px;
+    padding: 20px 0;
+}
+.signin-title {
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+.title-background {
+    width: 100%;
+    height: 700px;
+    opacity: 0.4;
+}
+.title-big-text {
+    margin: 100px auto 20px;
+    text-align: center;
+    width: 600px;
+}
+.title-section {
+    position: absolute;
+    top: 2px;
+    width: 100%;
+}
+.title-small-text {
+    width: 400px;
+    margin: auto;
+}
+.title-smaller-text {
+    width: 700px;
+    margin: 22px auto 12px;
+}
+.user-label {
+    position: absolute;
+    left: 15px;
+    color: #e8e8e8;
+    transform: translateY(1rem);
+}
+
+@media (max-width: 991px) {
+    .btn-email {
+        display: block;
+        margin: 5px auto;
+        font-size: 1rem;
+    }
+    
+    .title-smaller-text {
+        width: 450px;
+    }
+    .desktop-big-text {
+        text-align: center;
+        font-size: 2.7rem;
+    }
+    .desktop-small-text {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .desktop-image {
+        height: 100%;
+        text-align: center;
+        width: 60%;
+    }
+    .col-lg-6 {
+        text-align: center;
+    }
+    .email-center {
+        width: 100%;
+    }
+    .title-background {
+        height: 700px;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-areas: "media-text" "media-image";
+    }
+    .media-image {
+        grid-area: media-image; 
+    }
+    .media-text {
+        grid-area: media-text;
+    }
+}
+@media (max-width: 768px) {
+    html {
+        font-size: 14px;
+    }
+    .title-big-text {
+        width: 80%;
+    }
+    .title-smaller-text {
+        width: 70%;
+    }
+    .email-center {
+        width: 100%;
+    }  
+    .title-background {
+        height: 600px;
+    } 
+}
+@media (max-width: 576px) {
+    html {
+        font-size: 12px;
+    }
+    .title-background {
+        height: 550px;
+    }
+}
+@media (max-width: 740px) {
+    .title740 {
+        display: none;
+    }
+    .netflix-logo {
+        height: 20%;
+        width: 20%;
+        margin: 1% 2%;
+    }
+    .signin-focus {
+        width: 100%;
+        padding: 30px;
+        height: 600px;
+    }
+    .signin-footer {
+        border-top: solid #bdbcbc 1px;
+        margin-top: 0px;
+        padding-top: 30px;
+    }
+}
